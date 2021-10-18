@@ -1,0 +1,33 @@
+.section-height {
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #1b2021;
+}
+
+html::-webkit-scrollbar {
+    background-color: #1b2021;
+}
+html::-webkit-scrollbar {
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #16db65;
+    border: 3.5px solid #1b2021;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb:focus {
+    background-color: #5def97;
+}
+    
+html::-webkit-scrollbar-thumb:active{
+    background-color: #5def97;
+}
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #5def97;
+}
+
+@media(max-width: 600px) {
+    .section-height {
+        padding: 30px;
+    }
+}

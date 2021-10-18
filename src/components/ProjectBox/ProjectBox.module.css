@@ -1,0 +1,64 @@
+.projectBox {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.imgContainerContent {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    visibility: hidden;
+    background-color: rgba(22, 219, 101,0.92);
+    padding: 20px;
+    opacity: 0;
+    transition: .25s;
+    border-radius: 10px;
+}
+
+.img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.projectBox:hover .imgContainerContent {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media(min-width: 600px) {
+    .projectBox {
+        width: 80%
+    }
+}
+@media(min-width: 750px) {
+    .projectBox {
+        width: 70%
+    }
+}
+@media(min-width: 900px) {
+    .projectBox {
+        width: 45%;
+        margin: 2.5%;
+    }
+}
+@media(min-width: 1200px) {
+    .projectBox {
+        width: 40%;
+        margin: 2.5%;
+    }
+}
+
+@media(min-width: 1400px) {
+    .projectBox {
+        width: 35%;
+        margin: 2.5%;
+    }
+}
