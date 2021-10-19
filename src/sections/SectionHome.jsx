@@ -39,12 +39,13 @@ export default function SectionHome() {
                 xs={12} md={4}
                 container
                 direction='column'
-                alingItems='center'
+                alignItems='center'
                 sx={{ paddingTop: { md: '60px', lg: 'unset' } }}
             >
                 <img
                     className={styles.img}
                     src='https://res.cloudinary.com/dfvpybkta/image/upload/v1634427029/pngfind.com-person-png-600927_prjle1.webp'
+                    alt='Picture of me'
                 />
             </Grid>
         </Grid>

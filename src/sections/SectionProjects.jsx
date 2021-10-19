@@ -2,6 +2,7 @@ import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import ProjectBox from '../components/ProjectBox/ProjectBox'
 import styles from './Section.module.css'
+import { v4 as uuidv4 } from 'uuid';
 
 const projects = [
     {
@@ -16,12 +17,12 @@ const projects = [
         title: 'Portfolio',
         description: 'Here is a source code of my portfolio app',
         gitHref: 'https://github.com/beelzick/portfolio-react',
-        demoHref: 'https://eze-sneakers.vercel.app/'
+        demoHref: 'https://kacper-zabielski.vercel.app/'
     },
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634595524/workout-places-thumb_eokaxv.webp',
         title: 'Workout Places',
-        description: 'Tis project mainly focuses on the backend side with express. It includes CRUD operations and database relationships.',
+        description: 'This project mainly focuses on the backend side with express. It includes CRUD operations and database relationships.',
         gitHref: 'https://github.com/beelzick/workout-places',
         demoHref: 'https://workout-places-showcase.herokuapp.com/'
     },
@@ -40,6 +41,7 @@ export default function SectionProjects() {
                     description={description}
                     gitHref={gitHref}
                     demoHref={demoHref}
+                    key={uuidv4()}
                 />
             ))}
         </Grid>

@@ -38,6 +38,7 @@ export default function ProjectBox({ imgUrl, title, description, gitHref, demoHr
         <img
             src={imgUrl}
             className={styles.img}
+            alt={title}
         />
     </Box>
 }

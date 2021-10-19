@@ -10,19 +10,23 @@ import { v4 as uuidv4 } from 'uuid';
 const contactIcons = [
     {
         href: 'https://github.com/beelzick',
-        icon: GitHubIcon
+        icon: GitHubIcon,
+        aria: 'GitHub',
     },
     {
         href: 'https://www.linkedin.com/in/kacper-zabielski-329911217/',
-        icon: LinkedInIcon
+        icon: LinkedInIcon,
+        aria: 'LinkedIn'
     },
     {
         href: 'mailto: kacper.zabielski05@gmail.com',
-        icon: EmailIcon
+        icon: EmailIcon,
+        aria: 'Email'
     },
     {
         href: 'https://www.facebook.com/kacper.zabielski/',
-        icon: FacebookIcon
+        icon: FacebookIcon,
+        aria: 'Facebook'
     },
 ]
 
@@ -31,7 +35,7 @@ export default function SectionContact() {
         <div className={styles.contactContent}>
             <Grid container justifyContent='center' alignItems='center' sx={{ height: { xs: '150px', sm: '200px' } }}>
                 {contactIcons.map((item) => (
-                    <IconButton key={uuidv4()} sx={{ marginRight: '5px' }} href={item.href}>
+                    <IconButton key={uuidv4()} sx={{ marginRight: '5px' }} href={item.href} aria-label={item.aria}>
                         <item.icon
                             sx={{ fontSize: { xs: '70px', sm: '90px', md: '110px', lg: '150px' }, color: '#fff' }}
                         />
