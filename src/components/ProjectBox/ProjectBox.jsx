@@ -6,7 +6,7 @@ import styles from './ProjectBox.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton'
 
-export default function ProjectBox({ title }) {
+export default function ProjectBox({ imgUrl, title, description, gitHref, demoHref }) {
     return <Box className={styles.projectBox}>
         <Grid
             container
@@ -16,27 +16,27 @@ export default function ProjectBox({ title }) {
             alignItems='center'
         >
             <Typography variant='h5' component='h4' align='center'>
-                Title
+                {title}
             </Typography>
-            <Typography variant='body2' component='p' align='center'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <Typography variant='body2' component='p' align='center' sx={{ width: '80%' }}>
+                {description}
             </Typography>
             <Grid container justifyContent='center' alignItems='center' mt={2}>
                 <Button
                     size='large'
                     variant='contained'
                     sx={{ marginRight: '16px', backgroundColor: '#1B2021 !important' }}
+                    href={demoHref}
                 >
                     SHOW PROJECT
                 </Button>
-                <IconButton>
+                <IconButton href={gitHref}>
                     <GitHubIcon sx={{ color: '#fff', fontSize: '60px' }} />
                 </IconButton>
             </Grid>
         </Grid>
         <img
-            src='https://res.cloudinary.com/dfvpybkta/image/upload/c_scale,h_1000/v1634402034/portfolio/example.webp'
+            src={imgUrl}
             className={styles.img}
         />
     </Box>

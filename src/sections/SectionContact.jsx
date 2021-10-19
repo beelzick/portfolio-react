@@ -6,13 +6,33 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import { v4 as uuidv4 } from 'uuid';
+
+const contactIcons = [
+    {
+        href: 'https://github.com/beelzick',
+        icon: GitHubIcon
+    },
+    {
+        href: 'https://www.linkedin.com/in/kacper-zabielski-329911217/',
+        icon: LinkedInIcon
+    },
+    {
+        href: 'mailto: kacper.zabielski05@gmail.com',
+        icon: EmailIcon
+    },
+    {
+        href: 'https://www.facebook.com/kacper.zabielski/',
+        icon: FacebookIcon
+    },
+]
+
 export default function SectionContact() {
     return <section className={styles.sectionContact}>
         <div className={styles.contactContent}>
             <Grid container justifyContent='center' alignItems='center' sx={{ height: { xs: '150px', sm: '200px' } }}>
-                {[GitHubIcon, LinkedInIcon, FacebookIcon, EmailIcon].map(Icon => (
-                    <IconButton key={uuidv4()} sx={{ marginRight: '5px' }}>
-                        <Icon
+                {contactIcons.map((item) => (
+                    <IconButton key={uuidv4()} sx={{ marginRight: '5px' }} href={item.href}>
+                        <item.icon
                             sx={{ fontSize: { xs: '70px', sm: '90px', md: '110px', lg: '150px' }, color: '#fff' }}
                         />
                     </IconButton>
