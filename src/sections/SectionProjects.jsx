@@ -1,4 +1,4 @@
-import TypographySlide from '../components/animated/TypographySlide'
+import TypographySlide from '../components/Animated/TypographySlide'
 import ProjectBox from '../components/ProjectBox/ProjectBox'
 import styles from './Section.module.css'
 import { v4 as uuidv4 } from 'uuid';

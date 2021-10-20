@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { selectSlideIndex } from '../../redux/slideIndexSlice'
 import slideTexts from '../../helpers/slideTexts'
 import { motion, AnimatePresence } from 'framer-motion'
-import MotionDiv from '../animated/MotionDiv'
+import MotionDiv from '../Animated/MotionDiv'
 
 export default function SlideText() {
     const [slideText, setSlideText] = useState('code')

@@ -1,8 +1,8 @@
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 import Icons from '../components/Icons/Icons'
-import TypographySlide from '../components/animated/TypographySlide'
-import MotionDiv from '../components/animated/MotionDiv'
+import TypographySlide from '../components/Animated/TypographySlide'
+import MotionDiv from '../components/Animated/MotionDiv'
 
 export default function SectionSkills() {
     return <section className='section-height' name='skills'>

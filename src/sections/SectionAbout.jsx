@@ -2,8 +2,8 @@ import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
 import SwiperAbout from '../components/SwiperAbout/SwiperAbout'
 import SlideText from '../components/SwiperAbout/SlideText'
-import TypographySlide from '../components/animated/TypographySlide'
-import MotionDiv from '../components/animated/MotionDiv'
+import TypographySlide from '../components/Animated/TypographySlide'
+import MotionDiv from '../components/Animated/MotionDiv'
 
 export default function SectionAbout() {
     return (
