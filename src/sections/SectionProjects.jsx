@@ -8,14 +8,14 @@ const projects = [
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634578204/eze-miniature-2.webp',
         title: 'EzeSneakers',
-        description: 'EzeSneakers is an eccomerce showcase website which offers restored shoes from brands like Nike, Adidas, Puma. This project is build on top of React and Next.js',
+        description: 'EzeSneakers is an e-commerce showcase website that offers restored shoes from brands like Nike, Adidas, Puma. This project is built on top of React and Next.js.',
         gitHref: 'https://github.com/beelzick/eze-sneakers',
         demoHref: 'https://eze-sneakers.vercel.app/'
     },
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634687297/portfolio-thumb.webp',
         title: 'Portfolio',
-        description: 'This portfolio is build on top of react',
+        description: 'This portfolio is built on top of react.',
         gitHref: 'https://github.com/beelzick/portfolio-react',
     },
     {
