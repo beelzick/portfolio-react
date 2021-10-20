@@ -41,14 +41,14 @@ export default function ProjectBox({ imgUrl, title, description, gitHref, demoHr
                 {description}
             </Typography>
             <Grid container justifyContent='center' alignItems='center' mt={2}>
-                <Button
+                {title !== 'Portfolio' && <Button
                     size='large'
                     variant='contained'
                     sx={{ marginRight: '16px', backgroundColor: '#1B2021 !important' }}
                     href={demoHref}
                 >
                     SHOW PROJECT
-                </Button>
+                </Button>}
                 <IconButton href={gitHref}>
                     <GitHubIcon sx={{ color: '#fff', fontSize: '60px' }} />
                 </IconButton>

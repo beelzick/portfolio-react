@@ -6,7 +6,6 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import { v4 as uuidv4 } from 'uuid';
-import { motion } from 'framer-motion';
 
 const contactIcons = [
     {
@@ -49,17 +48,12 @@ export default function SectionContact() {
                 <Grid container
                     justifyContent='center'
                     alignItems='center' sx={{ height: { xs: '150px', sm: '200px' } }}>
-                    {contactIcons.map((item, i) => (
+                    {contactIcons.map((item) => (
                         <IconButton
                             key={uuidv4()}
                             sx={{ marginRight: '5px' }}
                             href={item.href}
                             aria-label={item.aria}
-                            initial='hidden'
-                            animate='visible'
-                            variants={variants}
-                            custom={i + 1}
-                            component={motion.a}
                         >
                             <item.icon
                                 sx={{ fontSize: { xs: '70px', sm: '90px', md: '110px', lg: '150px' }, color: '#fff' }}

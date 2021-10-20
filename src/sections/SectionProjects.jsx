@@ -18,7 +18,6 @@ const projects = [
         title: 'Portfolio',
         description: 'This portfolio is build on top of react',
         gitHref: 'https://github.com/beelzick/portfolio-react',
-        demoHref: 'https://kacper-zabielski.vercel.app/'
     },
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634595524/workout-places-thumb_eokaxv.webp',
