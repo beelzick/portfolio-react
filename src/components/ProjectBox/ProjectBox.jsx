@@ -5,9 +5,28 @@ import Button from '@mui/material/Button'
 import styles from './ProjectBox.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton'
+import { motion } from 'framer-motion'
 
-export default function ProjectBox({ imgUrl, title, description, gitHref, demoHref }) {
-    return <Box className={styles.projectBox}>
+
+const variants = {
+    visible: i => ({
+        opacity: 1,
+        transition: {
+            delay: i * 0.4,
+            duration: 0.4
+        }
+    }),
+    hidden: { opacity: 0 }
+}
+
+export default function ProjectBox({ imgUrl, title, description, gitHref, demoHref, i }) {
+    return <Box
+        className={styles.projectBox}
+        component={motion.div}
+        initial='hidden'
+        animate='visible'
+        variants={variants}
+        custom={i + 1}>
         <Grid
             container
             direction='column'

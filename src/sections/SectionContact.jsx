@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import { v4 as uuidv4 } from 'uuid';
+import { motion } from 'framer-motion';
 
 const contactIcons = [
     {
@@ -30,18 +31,43 @@ const contactIcons = [
     },
 ]
 
+const variants = {
+    visible: i => ({
+        opacity: 1,
+        transition: {
+            delay: i * 0.3,
+            duration: 0.4
+        }
+    }),
+    hidden: { opacity: 0 }
+}
+
 export default function SectionContact() {
-    return <section className={styles.sectionContact}>
-        <div className={styles.contactContent}>
-            <Grid container justifyContent='center' alignItems='center' sx={{ height: { xs: '150px', sm: '200px' } }}>
-                {contactIcons.map((item) => (
-                    <IconButton key={uuidv4()} sx={{ marginRight: '5px' }} href={item.href} aria-label={item.aria}>
-                        <item.icon
-                            sx={{ fontSize: { xs: '70px', sm: '90px', md: '110px', lg: '150px' }, color: '#fff' }}
-                        />
-                    </IconButton>
-                ))}
-            </Grid>
-        </div>
-    </section>
+    return (
+        <section className={styles.sectionContact}>
+            <div className={styles.contactContent}>
+                <Grid container
+                    justifyContent='center'
+                    alignItems='center' sx={{ height: { xs: '150px', sm: '200px' } }}>
+                    {contactIcons.map((item, i) => (
+                        <IconButton
+                            key={uuidv4()}
+                            sx={{ marginRight: '5px' }}
+                            href={item.href}
+                            aria-label={item.aria}
+                            initial='hidden'
+                            animate='visible'
+                            variants={variants}
+                            custom={i + 1}
+                            component={motion.a}
+                        >
+                            <item.icon
+                                sx={{ fontSize: { xs: '70px', sm: '90px', md: '110px', lg: '150px' }, color: '#fff' }}
+                            />
+                        </IconButton>
+                    ))}
+                </Grid>
+            </div>
+        </section>
+    )
 }

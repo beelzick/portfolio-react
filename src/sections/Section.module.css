@@ -1,6 +1,13 @@
 .sectionHome {
     height: fit-content;
     background-color: #1b2021;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.blobsContainer {
+    position: absolute;
 }
 
 .img {

@@ -5,24 +5,30 @@ let theme = createTheme()
 theme = createTheme(theme, {
     typography: {
         h1: {
-            fontFamily: '\'Open Sans\', sans-serif',
+            fontFamily: '\'Titillium Web\', sans-serif',
             fontWeight: 800,
-            fontSize: '12vw',
+            fontSize: '5rem',
             [theme.breakpoints.up('sm')]: {
-                textAlign: 'center'
+                fontSize: '6rem',
             },
             [theme.breakpoints.up('md')]: {
-                textAlign: 'unset'
+                fontSize: '7rem',
+            },
+            [theme.breakpoints.up('lg')]: {
+                fontSize: '8rem',
             },
         },
         h2: {
-            opacity: 0.8,
-            fontSize: '4.5vw',
+            color: 'rgba(255,255,255,0.8)',
+            fontSize: '1.2rem',
             [theme.breakpoints.up('sm')]: {
-                textAlign: 'center',
+                fontSize: '1.5rem',
             },
             [theme.breakpoints.up('md')]: {
-                textAlign: 'unset',
+                fontSize: '1.7rem',
+            },
+            [theme.breakpoints.up('lg')]: {
+                fontSize: '1.9rem',
             },
         },
         h3: {
@@ -35,7 +41,7 @@ theme = createTheme(theme, {
             [theme.breakpoints.up('lg')]: {
                 textAlign: 'unset'
             },
-            fontFamily: '\'Open Sans\', sans-serif',
+            fontFamily: '\'Titillium Web\', sans-serif',
             fontWeight: 800,
             color: '#16db65'
         },
