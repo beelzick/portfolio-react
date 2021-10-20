@@ -1,4 +1,3 @@
-import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -9,7 +8,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
 
 
-export default function NavBar(props) {
+export default function NavBar() {
     const trigger = useScrollTrigger();
     const scrollToBottomPage = () => {
         scroll.scrollToBottom()

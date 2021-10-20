@@ -30,17 +30,6 @@ const contactIcons = [
     },
 ]
 
-const variants = {
-    visible: i => ({
-        opacity: 1,
-        transition: {
-            delay: i * 0.3,
-            duration: 0.4
-        }
-    }),
-    hidden: { opacity: 0 }
-}
-
 export default function SectionContact() {
     return (
         <section className={styles.sectionContact}>

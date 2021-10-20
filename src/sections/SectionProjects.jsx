@@ -1,4 +1,3 @@
-import Grid from '@mui/material/Grid'
 import TypographySlide from '../components/animated/TypographySlide'
 import ProjectBox from '../components/ProjectBox/ProjectBox'
 import styles from './Section.module.css'

@@ -11,7 +11,6 @@ import { Navigation, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { v4 as uuidv4 } from 'uuid';
-import { useEffect, useState } from 'react';
 import SpidermanSvg from './SpidermanSvg';
 import { setSlideIndex } from '../../redux/slideIndexSlice';
 export default function SwiperAbout() {
