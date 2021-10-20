@@ -1,4 +1,4 @@
-import NavBar from '../components/NavBar/NavBar'
+import NavBar from '../components/NavBar'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import styles from './Section.module.css'

@@ -16,7 +16,7 @@ export default function ProjectsContainer({ children }) {
     return <Grid
         container
         justifyContent='center'
-        alingItems='center'
+        alignItems='center'
         ref={ref}
     >
         {visible && children}

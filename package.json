@@ -19,6 +19,7 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-icons": "^4.3.1",
+    "react-loader-spinner": "^4.0.0",
     "react-redux": "^7.2.5",
     "react-scroll": "^1.8.4",
     "swiper": "^7.0.8",
