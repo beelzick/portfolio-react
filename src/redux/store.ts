@@ -6,3 +6,5 @@ export const store = configureStore({
         slideIndex: slideIndexSlice
     }
 })
+
+export type RootState = ReturnType<typeof store.getState>

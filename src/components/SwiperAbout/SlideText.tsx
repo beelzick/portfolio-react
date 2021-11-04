@@ -19,7 +19,7 @@ export default function SlideText() {
     }, [slideIndex])
 
     return (
-        <MotionDiv style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+        <MotionDiv>
             <AnimatePresence>
                 <Typography
                     key={slideIndex}

@@ -6,10 +6,14 @@ import TypographySlide from '../components/Animated/TypographySlide'
 import MotionDiv from '../components/Animated/MotionDiv'
 
 export default function SectionAbout() {
+    const typographyRest = {
+        variant: 'h3',
+        mb: 9
+    }
     return (
-        <section className='section-height' name='about'>
+        <section className='section-height' id='about'>
             <Grid container sx={{ height: '100%' }} direction='column' alignItems='center'>
-                <TypographySlide variant='h3' component='h3' mb={9}>
+                <TypographySlide  {...typographyRest}>
                     ABOUT ME
                 </TypographySlide>
 

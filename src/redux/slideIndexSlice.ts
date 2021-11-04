@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { RootState } from './store'
 
 const initialState = { slideIndex: 1 }
 
@@ -14,6 +15,6 @@ const slideIndexSlice = createSlice({
 
 export const { setSlideIndex } = slideIndexSlice.actions
 
-export const selectSlideIndex = state => state.slideIndex.slideIndex
+export const selectSlideIndex = (state: RootState) => state.slideIndex.slideIndex
 
 export default slideIndexSlice.reducer

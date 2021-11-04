@@ -8,7 +8,7 @@ import SectionProjects from './sections/SectionProjects';
 import SectionContact from './sections/SectionContact';
 import { StyledEngineProvider } from '@mui/material/styles';
 import { Provider } from 'react-redux'
-import { store } from '../src/redux/store'
+import { store } from './redux/store'
 
 function App() {
   return <>

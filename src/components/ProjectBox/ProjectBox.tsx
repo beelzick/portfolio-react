@@ -7,9 +7,17 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton'
 import { motion } from 'framer-motion'
 
+interface Props {
+    imgUrl: string
+    title: string
+    description: string
+    i: number
+    gitHref: string
+    demoHref?: string
+}
 
 const variants = {
-    visible: i => ({
+    visible: (i: number) => ({
         opacity: 1,
         transition: {
             delay: i * 0.4,
@@ -19,7 +27,7 @@ const variants = {
     hidden: { opacity: 0 }
 }
 
-export default function ProjectBox({ imgUrl, title, description, gitHref, demoHref, i }) {
+export default function ProjectBox({ imgUrl, title, description, gitHref, demoHref, i }: Props) {
     return <Box
         className={styles.projectBox}
         component={motion.div}

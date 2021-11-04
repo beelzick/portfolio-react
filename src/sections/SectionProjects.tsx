@@ -28,22 +28,29 @@ const projects = [
 ]
 
 export default function SectionProjects() {
-    return <section className={styles.sectionProjects} name='projects'>
-        <TypographySlide variant='h3' component='h3' align='center' mb={9}>
-            SHOWCASE PROJECTS
-        </TypographySlide>
-        <ProjectsContainer>
-            {projects.map(({ imgUrl, title, description, gitHref, demoHref }, i) => (
-                <ProjectBox
-                    imgUrl={imgUrl}
-                    title={title}
-                    description={description}
-                    gitHref={gitHref}
-                    demoHref={demoHref}
-                    key={uuidv4()}
-                    i={i}
-                />
-            ))}
-        </ProjectsContainer>
-    </section>
+    const typographyRest = {
+        variant: 'h3',
+        align: 'center',
+        mb: 9,
+    }
+    return (
+        <section className={styles.sectionProjects} id='projects'>
+            <TypographySlide  {...typographyRest}>
+                SHOWCASE PROJECTS
+            </TypographySlide>
+            <ProjectsContainer>
+                {projects.map(({ imgUrl, title, description, gitHref, demoHref }, i) => (
+                    <ProjectBox
+                        imgUrl={imgUrl}
+                        title={title}
+                        description={description}
+                        gitHref={gitHref}
+                        demoHref={demoHref}
+                        key={uuidv4()}
+                        i={i}
+                    />
+                ))}
+            </ProjectsContainer>
+        </section>
+    )
 }

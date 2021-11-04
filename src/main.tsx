@@ -2,7 +2,7 @@ import React from 'react';
 import { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import LoadingPage from '../src/components/LoadingPage'
+import LoadingPage from './components/LoadingPage'
 const App = React.lazy(() => import('./App'))
 
 ReactDOM.render(
