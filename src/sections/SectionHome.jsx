@@ -28,7 +28,7 @@ export default function SectionHome() {
                 component={motion.h2}
                 align='center'
             >
-                Looking for an opportunity to work as a junior full-stack web developer
+                Looking for an opportunity to work as a Junior Fronted(React) Developer
             </Typography>
         </Grid>
     </section>

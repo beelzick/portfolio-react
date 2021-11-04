@@ -15,7 +15,7 @@ const projects = [
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634687297/portfolio-thumb.webp',
         title: 'Portfolio',
-        description: 'This portfolio is built on top of react.',
+        description: 'This portfolio is built on top of React.',
         gitHref: 'https://github.com/beelzick/portfolio-react',
     },
     {
