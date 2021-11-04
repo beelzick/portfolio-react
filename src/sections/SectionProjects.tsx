@@ -19,12 +19,20 @@ const projects = [
         gitHref: 'https://github.com/beelzick/portfolio-react',
     },
     {
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1636043436/github-repo-finder_ql5qhs.webp',
+        title: ' GitHub Repo Finder',
+        description: 'Project made with GitHub GraphQL API it allows to search for repository by name.',
+        gitHref: 'https://github.com/beelzick/github-repo-finder',
+        demoHref: 'https://github-repo-finder-sepia.vercel.app/'
+    },
+    {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634595524/workout-places-thumb_eokaxv.webp',
         title: 'Workout Places',
         description: 'This showcase project mainly focuses on the backend side with express. It includes CRUD operations and database relationships.',
         gitHref: 'https://github.com/beelzick/workout-places',
         demoHref: 'https://workout-places-showcase.herokuapp.com/'
     },
+
 ]
 
 export default function SectionProjects() {

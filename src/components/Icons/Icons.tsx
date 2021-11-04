@@ -11,10 +11,25 @@ import MUI from './MUI'
 import Git from './Git'
 import Redux from './Redux'
 import { v4 as uuidv4 } from 'uuid';
+import GraphQL from './GraphQL'
 import styles from './Icons.module.css'
+import TypeScript from './TypeScript'
 
 const icons = [
-    MongoDB, ReactIcon, Node, Next, Express, CSS, HTML, GitHub, JS, MUI, Git, Redux
+    MongoDB,
+    ReactIcon,
+    Node,
+    Next,
+    Express,
+    CSS,
+    HTML,
+    GitHub,
+    JS,
+    MUI,
+    Git,
+    Redux,
+    GraphQL,
+    TypeScript
 ]
 
 export default function Icons() {
