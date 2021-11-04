@@ -11,20 +11,20 @@ import { Provider } from 'react-redux'
 import { store } from './redux/store'
 
 function App() {
-  return <>
+  return (
     <StyledEngineProvider injectFirst>
       <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <SectionHome />
-        <SectionAbout />
-        <SectionSkills />
-        <SectionProjects />
-        <SectionContact />
-      </ThemeProvider>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <SectionHome />
+          <SectionAbout />
+          <SectionSkills />
+          <SectionProjects />
+          <SectionContact />
+        </ThemeProvider>
       </Provider>
     </StyledEngineProvider>
-  </>
+  )
 }
 
 export default App;
