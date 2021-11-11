@@ -23,8 +23,8 @@ const projects = [
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1636493255/todo-thumb_wbjydw.webp',
         title: 'Todo Maker',
         description: 'Simple todo app made with React and Apollo.',
-        gitHref: '',
-        demoHref: ''
+        gitHref: 'https://github.com/beelzick/todo-maker-client',
+        demoHref: 'https://todo-maker.vercel.app/'
     },
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634595524/workout-places-thumb_eokaxv.webp',
