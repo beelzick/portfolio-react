@@ -34,9 +34,8 @@
 }
 
 .contactContent {
-
     position: sticky;
-    top: 72.5%;
+    top: 70%;
 }
 
 @media(max-width: 700px) {
