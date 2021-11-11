@@ -14,3 +14,4 @@ Check it out - [Link](https://kacper-zabielski.vercel.app/)
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/nodejs-icon.svg" alt="Node.js" width="26px" height="26px">
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="Git" width="26px" height="26px">
 <img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="26px" height="26px">
+<img align="left" src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="vite" width="26px" height="26px">
