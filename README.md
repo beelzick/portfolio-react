@@ -1,6 +1,6 @@
 # My Portfolio [Website](https://kacper-zabielski.vercel.app/) :frog:
 
-Check it out- [Link](https://kacper-zabielski.vercel.app/)
+Check it out - [Link](https://kacper-zabielski.vercel.app/)
 
 ## Technology Stack
 
