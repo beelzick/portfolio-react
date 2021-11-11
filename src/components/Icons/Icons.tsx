@@ -14,22 +14,30 @@ import { v4 as uuidv4 } from 'uuid';
 import GraphQL from './GraphQL'
 import styles from './Icons.module.css'
 import TypeScript from './TypeScript'
+import Jest from './Jest'
+import Npm from './Npm'
+import TestingLib from './TestingLib'
+import Apollo from './Apollo'
 
 const icons = [
-    MongoDB,
+    TypeScript,
     ReactIcon,
-    Node,
+    JS,
+    MongoDB,
     Next,
+    Node,
     Express,
     CSS,
     HTML,
     GitHub,
-    JS,
-    MUI,
     Git,
+    MUI,
     Redux,
     GraphQL,
-    TypeScript
+    Apollo,
+    Jest,
+    TestingLib,
+    Npm,
 ]
 
 export default function Icons() {
