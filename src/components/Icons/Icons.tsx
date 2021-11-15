@@ -18,6 +18,7 @@ import Jest from './Jest'
 import Npm from './Npm'
 import TestingLib from './TestingLib'
 import Apollo from './Apollo'
+import Cypress from './Cypress'
 
 const icons = [
     TypeScript,
@@ -38,6 +39,7 @@ const icons = [
     Jest,
     TestingLib,
     Npm,
+    Cypress
 ]
 
 export default function Icons() {
