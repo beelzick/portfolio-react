@@ -58,12 +58,15 @@ theme = createTheme(theme, {
             fontSize: '1.2rem',
             color: 'rgba(255,255,255,0.8)',
             [theme.breakpoints.up('sm')]: {
-                fontSize: '1.4rem',
+                fontSize: '1.35rem',
             },
             [theme.breakpoints.up('md')]: {
-                fontSize: '1.6rem',
+                fontSize: '1.45rem',
             },
             [theme.breakpoints.up('lg')]: {
+                fontSize: '1.6rem',
+            },
+            [theme.breakpoints.up('xl')]: {
                 fontSize: '1.8rem',
             },
         },

@@ -34,9 +34,7 @@ export default function SwiperAbout() {
             ))}
             <SwiperSlide>
                 <Grid container justifyContent='center' alignItems='center'>
-                    <Box>
-                        <SpidermanSvg />
-                    </Box>
+                    <SpidermanSvg />
                 </Grid>
             </SwiperSlide>
         </Swiper>

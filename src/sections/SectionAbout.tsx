@@ -8,7 +8,7 @@ import MotionDiv from '../components/Animated/MotionDiv'
 export default function SectionAbout() {
     const typographyRest = {
         variant: 'h3',
-        mb: 9
+        mb: 8
     }
     return (
         <section className='section-height' id='about'>
