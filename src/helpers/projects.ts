@@ -7,7 +7,7 @@ const projects = [
         demoHref: 'https://eze-sneakers.vercel.app/'
     },
     {
-        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634687297/portfolio-thumb.webp',
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637581103/portfolio_ow4r4b.webp',
         title: 'Portfolio',
         description: 'This portfolio is built on top of React.',
         gitHref: 'https://github.com/beelzick/portfolio-react',
