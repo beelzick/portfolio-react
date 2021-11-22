@@ -16,7 +16,6 @@ export default function SectionAbout() {
                 <TypographySlide  {...typographyRest}>
                     ABOUT ME
                 </TypographySlide>
-
                 <Grid container justifyContent='center' alignItems='center' mb={2}>
                     <MotionDiv>
                         <SwiperAbout />

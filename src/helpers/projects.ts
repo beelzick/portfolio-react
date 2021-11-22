@@ -29,11 +29,23 @@ const projects = [
     {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634595524/workout-places-thumb_eokaxv.webp',
         title: 'Workout Places',
-        description: 'This showcase project mainly focuses on the backend side with express. It includes CRUD operations and database relationships.',
+        description: 'This showcase project mainly focuses on the backend side with express. It includes CRUD operations and database relationships. It is going to be refactored with React.',
         gitHref: 'https://github.com/beelzick/workout-places',
         demoHref: 'https://workout-places-showcase.herokuapp.com/'
     },
+    {
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637538543/double-wrench_ykyo2o.png',
+        title: 'Storybook Components Library',
+        description: 'Here will be my own React components library made with Storybook and TypeScript',
+    },
+    {
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637538543/double-wrench_ykyo2o.png',
+        title: 'Rainbow Calculator',
+        description: 'Calculator app with dark mode, in progress.',
+    }
 
 ]
+
+
 
 export default projects

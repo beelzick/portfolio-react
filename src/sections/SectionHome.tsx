@@ -29,7 +29,7 @@ export default function SectionHome() {
                     component={motion.h2}
                     align='center'
                 >
-                    I enjyoy building apps in React
+                    I enjoy building apps in React
                 </Typography>
             </Grid>
         </section>
