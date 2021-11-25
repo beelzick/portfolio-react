@@ -7,12 +7,6 @@ const projects = [
         demoHref: 'https://eze-sneakers.vercel.app/'
     },
     {
-        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637581103/portfolio_ow4r4b.webp',
-        title: 'Portfolio',
-        description: 'This portfolio is built on top of React.',
-        gitHref: 'https://github.com/beelzick/portfolio-react',
-    },
-    {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1636043436/github-repo-finder_ql5qhs.webp',
         title: ' GitHub Repo Finder',
         description: 'Project made with GitHub GraphQL API and React it allows to search for repository by name.',
@@ -27,25 +21,31 @@ const projects = [
         demoHref: 'https://todo-maker.vercel.app/'
     },
     {
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637859669/rainbow-calculator_ztkg46.webp',
+        title: 'Rainbow Calculator',
+        description: 'Simple calculator app with dark mode made in React.',
+        gitHref: 'https://github.com/beelzick/rainbow-calculator',
+        demoHref: 'https://rainbow-calculator.vercel.app/'
+    },
+    {
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637581103/portfolio_ow4r4b.webp',
+        title: 'Portfolio',
+        description: 'This portfolio is built on top of React.',
+        gitHref: 'https://github.com/beelzick/portfolio-react',
+    },
+    {
         imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1634595524/workout-places-thumb_eokaxv.webp',
         title: 'Workout Places',
         description: 'This showcase project mainly focuses on the backend side with express. It includes CRUD operations and database relationships. It is going to be refactored with React.',
         gitHref: 'https://github.com/beelzick/workout-places',
         demoHref: 'https://workout-places-showcase.herokuapp.com/'
+
     },
     {
-        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637538543/double-wrench_ykyo2o.png',
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637862229/double-wrench_3_tiaq5w.png',
         title: 'Storybook Components Library',
         description: 'Here will be my own React components library made with Storybook and TypeScript',
     },
-    {
-        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637538543/double-wrench_ykyo2o.png',
-        title: 'Rainbow Calculator',
-        description: 'Calculator app with dark mode, in progress.',
-    }
-
 ]
-
-
 
 export default projects

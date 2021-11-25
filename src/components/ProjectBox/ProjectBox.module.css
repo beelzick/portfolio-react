@@ -5,6 +5,10 @@
     margin-bottom: 30px;
 }
 
+.projectBox:last-child .img {
+    object-position: center;
+}
+
 .imgContainerContent {
     height: 100%;
     width: 100%;
