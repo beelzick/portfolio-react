@@ -21,7 +21,7 @@ const projects = [
         demoHref: 'https://todo-maker.vercel.app/'
     },
     {
-        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637859669/rainbow-calculator_ztkg46.webp',
+        imgUrl: 'https://res.cloudinary.com/dfvpybkta/image/upload/v1637875655/rainbow-calc_y08ezl.webp',
         title: 'Rainbow Calculator',
         description: 'Simple calculator app with dark mode made in React.',
         gitHref: 'https://github.com/beelzick/rainbow-calculator',
